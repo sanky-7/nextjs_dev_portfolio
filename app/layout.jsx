@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import StarsCanvas from "@/components/StarBackground";
+import ogImage from "/ogimage.png";
 
 const inter = Poppins({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -11,6 +12,15 @@ const inter = Poppins({
 export const metadata = {
   title: "Vaibhav's Portfolio",
   description: "Created by Vaibhav Sanket using Next.js",
+  openGraph: {
+    images: [
+      {
+        url: ogImage.src,
+        width: ogImage.width,
+        height: ogImage.height,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
