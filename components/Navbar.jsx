@@ -7,7 +7,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="flex md:flex-col items-center justify-center md:border-r-[hsla(0,0%,87%,0.171)] md:border-r md:border-solid fixed md:left-0 md:h-full md:w-[100px] bottom-0 h-auto w-full bg-[#080b1c] gap-5">
+    <nav className="flex md:flex-col items-center justify-center md:border-r-[hsla(0,0%,87%,0.171)] md:border-r md:border-solid fixed md:left-0 md:h-full md:w-[100px] bottom-0 h-auto w-full bg-[#080b1c] gap-5 z-[100]">
       <div className="hidden md:flex justify-center items-center logo py-10 w-[80px] h-[80px] rounded-full overflow-hidden ring-offset-0 ring-2 ring-[#373D4D]">
         <Image
           src="/SanketImage.jpg"
