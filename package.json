@@ -12,6 +12,7 @@
     "@heroicons/react": "^2.0.18",
     "@react-three/drei": "^9.91.0",
     "@react-three/fiber": "^8.15.12",
+    "@vercel/speed-insights": "^1.0.1",
     "framer-motion": "^10.16.16",
     "next": "14.0.4",
     "nextjs-simple-typewriter": "^5.2.2",

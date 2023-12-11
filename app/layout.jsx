@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import StarsCanvas from "@/components/StarBackground";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Poppins({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <StarsCanvas />
         <Navbar />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
