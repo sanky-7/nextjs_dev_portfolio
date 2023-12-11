@@ -111,7 +111,7 @@ const About = () => {
             </h2>
           </div>
         </div>
-        <div className="mt-18 container mx-auto px-5 md:mt-24 md:px-14 ">
+        <div className="mt-18 container mx-auto px-5 md:mt-24 md:px-14">
           <div className="mt-16">
             <div className="grid grid-cols-12 gap-5 md:gap-10">
               <SkillsPieChart percentage={95} skill="HTML5" />
