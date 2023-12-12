@@ -78,10 +78,10 @@ const Navbar = () => {
             </svg>
           </li>
         </Link>
-        <Link href="/portfolio">
+        <Link href="/projects">
           <li
             className={`rounded-full p-4 duration-200 ease-in hover:bg-[#17b978] ${
-              pathname === "/portfolio" ? "bg-[#17b978]" : "bg-[#dddddd31]"
+              pathname === "/projects" ? "bg-[#17b978]" : "bg-[#dddddd31]"
             }`}
           >
             <svg
