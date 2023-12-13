@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import StarsCanvas from "@/components/StarBackground";
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { ToastContainer, toast } from 'react-toastify';
 
 const inter = Poppins({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <SpeedInsights />
+        <ToastContainer />
       </body>
     </html>
   );
