@@ -89,7 +89,7 @@ const EmailForm = () => {
           onChange={handleChange}
           required
           placeholder="xyz@gmail.com"
-          className="bg-base-200 bg-transparent input input-bordered w-full placeholder:text-gray-700"
+          className="bg-base-200 input input-bordered w-full placeholder:text-gray-700"
         />
       </div>
       <div className="flex flex-col">
@@ -101,7 +101,7 @@ const EmailForm = () => {
           onChange={handleChange}
           required
           placeholder="Topic of communication"
-          className="bg-base-200 bg-transparent input input-bordered w-full placeholder:text-gray-700"
+          className="bg-base-200 input input-bordered w-full placeholder:text-gray-700"
         />
       </div>
       <div className="flex flex-col">
@@ -113,7 +113,7 @@ const EmailForm = () => {
           onChange={handleChange}
           required
           placeholder="Your message..."
-          className="bg-base-200 h-[80px] bg-transparent input input-bordered w-full placeholder:text-gray-700 placeholder:pt-2"
+          className="bg-base-200 h-[80px] input input-bordered w-full placeholder:text-gray-700 placeholder:pt-2"
         />
       </div>
       <button
