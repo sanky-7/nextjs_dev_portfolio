@@ -50,7 +50,7 @@ export const ProjectsData = {
   },
   disneyplus : {
     image: "/disneyplusclone.png",
-    title: "Disney+ UI Clone",
+    title: "Disney+ Clone",
     techUsed: "NextJS, TailwindCSS, tmdb api, shadcn/ui",
     link: "https://github.com/sanky-7/disneyplus_clone"
   },
