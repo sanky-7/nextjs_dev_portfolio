@@ -42,17 +42,17 @@ export const ServicesData = {
 };
 
 export const ProjectsData = {
-  myportfolio : {
-    image: "/myportfolio.png",
-    title: "My Portfolio Website",
-    techUsed: "NextJS, TailwindCSS, DaisyUI, react-three, framer-motion",
-    link: "https://github.com/sanky-7/nextjs_dev_portfolio"
-  },
   ecommerce : {
     image: "/nextjsecommerce.png",
     title: "NextJS Ecommerce Website",
     techUsed: "NextJS, TailwindCSS, NextAuth, DaisyUI, MongoDB, Prisma",
     link: "https://github.com/sanky-7/ecommerce"
+  },
+  disneyplus : {
+    image: "/disneyplusclone.png",
+    title: "Disney+ UI Clone",
+    techUsed: "NextJS, TailwindCSS, tmdb api, shadcn/ui",
+    link: "https://github.com/sanky-7/disneyplus_clone"
   },
   spacewebsite : {
     image: "/spacewebsite.png",
@@ -65,6 +65,12 @@ export const ProjectsData = {
     title: "Modern Banking UI",
     techUsed: "ReactJS, Vite, TailwindCSS, Firebase shadcn/ui",
     link: "https://github.com/sanky-7/bank_modern_app"
+  },
+  myportfolio : {
+    image: "/myportfolio.png",
+    title: "My Portfolio Website",
+    techUsed: "NextJS, TailwindCSS, DaisyUI, react-three, framer-motion",
+    link: "https://github.com/sanky-7/nextjs_dev_portfolio"
   },
   react3dwebsite : {
     image: "/3dreactwebsite.png",
